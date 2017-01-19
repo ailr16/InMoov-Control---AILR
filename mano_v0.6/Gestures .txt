@@ -1,0 +1,11 @@
+Case 0 			Palma cerrada		X
+Case 1			Dedo índice		X
+Case 2			Número 2		X
+Case 3			Número 3		X
+Case 4			Número 4		X
+Case 5			Número 5		X
+Case 6			Pulgar			X
+Case 7			Rock			X
+Case 8			Pulgar e índice		X
+Case 9			Número 5		X
+Case 10			Número 5		X
