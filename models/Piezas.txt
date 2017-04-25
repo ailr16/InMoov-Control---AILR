@@ -1,0 +1,18 @@
+			| DESCARGADO |	IMPRESO
+Robpart1.stl		|X           |X
+robpart4V2.stl		|X           |X
+robpart5V2.stl		|X           |X
+Auriculaire3.stl	|X           |X
+Index3.stl		|X           |X
+Majeure3.stl		|X           |X
+ringfinger3.stl		|X           |X
+WristsmallV3.stl	|X           |X
+thumb5.stl		|X	     |X
+Wristlarge.stl		|X 	     |X
+RobCableFrontV1.stl	|X	     |X
+RobRingV3.stl		|X	     |X
+RobCableBackV2.stl	|X	     |X
+RobServoBedV4.stl	|	     |X
+
+
+Visit http://inmoov.fr/ for see the original project.
