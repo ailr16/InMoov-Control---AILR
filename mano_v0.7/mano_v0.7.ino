@@ -45,17 +45,18 @@ void loop(){
   if(Serial.available()>0){
     z = Serial.read();
   }
-  if(z=='a'){
-    allopened();
+  if(z=='a'){           //Send  char 'a' trough serial monitor for open hand
+    allopnd();
   }
-  else if(z == 's'){
+  else if(z == 's'){    //Send  char 's' trough serial monitor for close hand
     allclosed();
   }
-  else if(z == 'd'){
+  else if(z == 'd'){    //Send  char 'd' trough serial monitor for grip (index and thumb)
     indexthumb();
   }
 }
 
+//Close hand
 void allclosed(){
   pinkie.write(pinkieH);
   ring.write(ringH);
@@ -63,8 +64,9 @@ void allclosed(){
   index.write(indexH);
   thumb.write(thumbH);
 }
-  
-void allopened(){
+
+//Open hand
+void allopnd(){
   pinkie.write(pinkieL);
   ring.write(ringL);
   middle.write(middleL);
@@ -72,6 +74,7 @@ void allopened(){
   thumb.write(thumbL);
 }
 
+//Grip (index and thumb)
 void indexthumb(){
   pinkie.write(pinkieL);
   ring.write(ringL);
