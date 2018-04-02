@@ -12,21 +12,21 @@ Case 1		"Grip (thumb and index)":
 	index = H
 	thumb = H
 
-Case 3		"Grip (thumb and middle)":
+Case 2		"Grip (thumb and middle)":
 	pinkie = L
 	ring = L
 	middle = H
 	index = L
 	thumb = H
 
-Case 4 		"Point (with index)":
+Case 3 		"Point (with index)":
 	pinkie = L
 	ring = L
 	middle = L
 	index = H
 	thumb = L
 
-Case 5 		"Closed":
+Case 4 		"Closed":
 	pinkie = H
 	ring = H
 	middle = H
