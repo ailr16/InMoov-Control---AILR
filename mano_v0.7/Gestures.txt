@@ -1,0 +1,34 @@
+Case 0		"Open":
+	pinkie = L
+	ring = L
+	middle = L
+	index = L
+	thumb = L
+
+Case 1		"Grip (thumb and index)":
+	pinkie = L
+	ring = L
+	middle = L
+	index = H
+	thumb = H
+
+Case 3		"Grip (thumb and middle)":
+	pinkie = L
+	ring = L
+	middle = H
+	index = L
+	thumb = H
+
+Case 4 		"Point (with index)":
+	pinkie = L
+	ring = L
+	middle = L
+	index = H
+	thumb = L
+
+Case 5 		"Closed":
+	pinkie = H
+	ring = H
+	middle = H
+	index = H
+	thumb = H
