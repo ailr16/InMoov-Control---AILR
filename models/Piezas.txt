@@ -15,4 +15,6 @@ RobCableBackV2.stl	|X	     |X
 RobServoBedV4.stl	|	     |X
 
 
+1739.9248
+
 Visit http://inmoov.fr/ for see the original project.
