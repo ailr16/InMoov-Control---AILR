@@ -13,24 +13,20 @@
   *   
   *   Lozano Ramirez Angel Ivan
   *   02.07.2018
+  *   NOTE: Set the Serial monitor with NL&CR and 9600 baud
 */
 
 
 #include <SoftwareSerial.h>
-SoftwareSerial BT(10,11);
+SoftwareSerial BT(11,10);
  
 void setup(){
   BT.begin(38400);
-  Serial.begin(38400);
+  Serial.begin(9600);
 }
  
 void loop(){
-  if( BT.available() ){
-    Serial.write( BT.read() );
-  }
- 
-  if( Serial.available() ){
-     BT.write( Serial.read() );
-  }
+  if( BT.available() ) Serial.write( BT.read() );
+  if( Serial.available() ) BT.write(Serial.read());
 }
 
