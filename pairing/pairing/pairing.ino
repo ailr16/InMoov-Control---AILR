@@ -4,7 +4,7 @@
   *Commands:
   *   AT+UART=57600,0,0
   *   AT+ROLE=1
-  *   AT+PSWD=0000
+  *   AT+PSWD="0000"
   *   AT+CMODE=0
   *   AT+BIND=<Address>  ( 1234,56,ABCDEF )
   *   AT+IAC=9E8B33
