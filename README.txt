@@ -4,3 +4,4 @@ Arduino control for InMoov hand.
 
 Project InMoov: http://inmoov.fr  (Gael Langevin)
 
+https://www.youtube.com/watch?v=0HPReJuST-8
